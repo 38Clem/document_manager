@@ -1,0 +1,53 @@
+body {
+    background: rgba(0,0,0,0.7);
+}
+
+.card {
+    background: rgba(0,0,0,0.4);
+}
+
+body, .card {
+    color: #eeeeee;
+}
+
+.home-title {
+    margin-top: 2%;
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.home .card {
+    width: 20%;
+    margin: 2% auto;
+    padding: 2%;
+    border: 2px solid lightgray;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 2.75rem;
+    color: gold;
+}
+
+.home .card .card-body {
+    padding: 0;
+}
+
+.card-text {
+    font-size: large;
+}
+
+.home .card .card-body .card-link{
+    margin-left: 0;
+}
+
+hr {
+    background: lightgray;
+}
